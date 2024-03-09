@@ -1,0 +1,301 @@
+Environment information:
+System: Linux 6.1.58+
+Current Version: pytorchyolo 1.8.0
+Current Commit Hash: b139d49
+Command line arguments: Namespace(model='config/yolov3-custom.cfg', data='config/custom.data', epochs=30, verbose=False, n_cpu=2, pretrained_weights='weights/darknet53.conv.74', checkpoint_interval=1, evaluation_interval=1, multiscale_training=False, iou_thres=0.5, conf_thres=0.1, nms_thres=0.5, logdir='logs', seed=-1)
+
+---- Training Model ----
+Training Epoch 1: 100% 348/348 [06:36<00:00,  1.14s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_1.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [02:25<00:00,  1.29s/it]
+Computing AP: 100% 12/12 [00:00<00:00, 16.39it/s]
+---- mAP 0.00189 ----
+
+---- Training Model ----
+Training Epoch 2: 100% 348/348 [06:30<00:00,  1.12s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_2.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:38<00:00,  1.15it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 982.29it/s]
+---- mAP 0.03413 ----
+
+---- Training Model ----
+Training Epoch 3: 100% 348/348 [06:24<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_3.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:35<00:00,  1.19it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 1406.27it/s]
+---- mAP 0.03062 ----
+
+---- Training Model ----
+Training Epoch 4: 100% 348/348 [06:25<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_4.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:32<00:00,  1.22it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 1095.74it/s]
+---- mAP 0.06003 ----
+
+---- Training Model ----
+Training Epoch 5: 100% 348/348 [06:20<00:00,  1.09s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_5.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:33<00:00,  1.20it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 999.46it/s]
+---- mAP 0.08842 ----
+
+---- Training Model ----
+Training Epoch 6: 100% 348/348 [06:16<00:00,  1.08s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_6.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:34<00:00,  1.19it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 988.64it/s]
+---- mAP 0.10864 ----
+
+---- Training Model ----
+Training Epoch 7: 100% 348/348 [06:19<00:00,  1.09s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_7.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:31<00:00,  1.23it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 969.41it/s]
+---- mAP 0.08702 ----
+
+---- Training Model ----
+Training Epoch 8: 100% 348/348 [06:20<00:00,  1.09s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_8.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:32<00:00,  1.23it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 1092.48it/s]
+---- mAP 0.08278 ----
+
+---- Training Model ----
+Training Epoch 9: 100% 348/348 [06:22<00:00,  1.10s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_9.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:33<00:00,  1.21it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 706.91it/s]
+---- mAP 0.08137 ----
+
+---- Training Model ----
+Training Epoch 10: 100% 348/348 [06:24<00:00,  1.10s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_10.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:34<00:00,  1.20it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 911.67it/s]
+---- mAP 0.11997 ----
+
+---- Training Model ----
+Training Epoch 11: 100% 348/348 [06:25<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_11.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:38<00:00,  1.15it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 485.20it/s]
+---- mAP 0.09517 ----
+
+---- Training Model ----
+Training Epoch 12: 100% 348/348 [06:24<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_12.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:32<00:00,  1.22it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 1083.66it/s]
+---- mAP 0.12148 ----
+
+---- Training Model ----
+Training Epoch 13: 100% 348/348 [06:27<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_13.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:37<00:00,  1.16it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 843.61it/s]
+---- mAP 0.11341 ----
+
+---- Training Model ----
+Training Epoch 14: 100% 348/348 [06:30<00:00,  1.12s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_14.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.18it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 461.11it/s]
+---- mAP 0.13056 ----
+
+---- Training Model ----
+Training Epoch 15: 100% 348/348 [06:35<00:00,  1.14s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_15.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:42<00:00,  1.10it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 789.96it/s]
+---- mAP 0.14994 ----
+
+---- Training Model ----
+Training Epoch 16: 100% 348/348 [06:44<00:00,  1.16s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_16.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:40<00:00,  1.13it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 849.59it/s]
+---- mAP 0.16683 ----
+
+---- Training Model ----
+Training Epoch 17: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_17.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:38<00:00,  1.15it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 494.48it/s]
+---- mAP 0.12938 ----
+
+---- Training Model ----
+Training Epoch 18: 100% 348/348 [06:27<00:00,  1.11s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_18.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:39<00:00,  1.14it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 720.58it/s]
+---- mAP 0.13709 ----
+
+---- Training Model ----
+Training Epoch 19: 100% 348/348 [06:35<00:00,  1.14s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_19.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:35<00:00,  1.18it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 918.95it/s]
+---- mAP 0.13171 ----
+
+---- Training Model ----
+Training Epoch 20: 100% 348/348 [06:28<00:00,  1.12s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_20.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:35<00:00,  1.19it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 521.39it/s]
+---- mAP 0.17956 ----
+
+---- Training Model ----
+Training Epoch 21: 100% 348/348 [06:31<00:00,  1.12s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_21.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:34<00:00,  1.19it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 516.71it/s]
+---- mAP 0.17438 ----
+
+---- Training Model ----
+Training Epoch 22: 100% 348/348 [06:31<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_22.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:37<00:00,  1.16it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 1095.19it/s]
+---- mAP 0.13203 ----
+
+---- Training Model ----
+Training Epoch 23: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_23.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.19850 ----
+
+---- Training Model ----
+Training Epoch 24: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.17662 ----
+
+---- Training Model ----
+Training Epoch 25: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.17817 ----
+
+---- Training Model ----
+Training Epoch 26: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.13784 ----
+
+---- Training Model ----
+Training Epoch 27: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.17375 ----
+
+---- Training Model ----
+Training Epoch 28: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.18689 ----
+
+---- Training Model ----
+Training Epoch 29: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.14558 ----
+
+---- Training Model ----
+Training Epoch 30: 100% 348/348 [06:34<00:00,  1.13s/it]
+---- Saving checkpoint to: 'checkpoints/yolov3_ckpt_24.pth' ----
+
+---- Evaluating Model ----
+Validating: 100% 113/113 [01:36<00:00,  1.17it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 391.35it/s]
+---- mAP 0.17817 ----
+
+
+Environment information:
+System: Linux 6.1.58+
+Current Version: pytorchyolo 1.8.0
+Current Commit Hash: b139d49
+Command line arguments: Namespace(model='config/yolov3-custom.cfg', weights='checkpoints/yolov3_ckpt_23.pth', data='config/custom.data', batch_size=8, verbose=False, img_size=416, n_cpu=2, iou_thres=0.5, conf_thres=0.01, nms_thres=0.4)
+Validating: 100% 225/225 [01:47<00:00,  2.09it/s]
+Computing AP: 100% 12/12 [00:00<00:00, 144.30it/s]
++-------+-----------+---------+
+| Index | Class     | AP      |
++-------+-----------+---------+
+| 0     | bicycle   | 0.33563 |
+| 1     | boat      | 0.17091 |
+| 2     | bottle    | 0.21484 |
+| 3     | bus       | 0.40548 |
+| 4     | car       | 0.34458 |
+| 5     | cat       | 0.23040 |
+| 6     | chair     | 0.24309 |
+| 7     | cup       | 0.25995 |
+| 8     | dog       | 0.36645 |
+| 9     | motorbike | 0.31478 |
+| 10    | people    | 0.35519 |
+| 11    | table     | 0.14299 |
++-------+-----------+---------+
+---- mAP 0.28202 ----
